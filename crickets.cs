@@ -1,6 +1,12 @@
+git checkout main
+# внеси мелкую правку в файл
+git add .
+git commit -m "test"
+git push origin main
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 
 public class crickets : MonoBehaviour
 {
@@ -16,4 +22,5 @@ public class crickets : MonoBehaviour
         print("crickets");
     }
 }
+
 
