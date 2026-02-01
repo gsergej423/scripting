@@ -1,4 +1,4 @@
-```bash
-git init
-git add .
-git commit -m "Initial commit"
+git clone https://github.com/<username>/<repo>.git
+cd <repo>
+git branch
+git status
